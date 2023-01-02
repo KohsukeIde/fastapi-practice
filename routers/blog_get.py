@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Response, status, Depends
 from enum import Enum
 from typing import Optional
-from routers import required_functionality
+from routers.blog_post import required_functionality
 
 router = APIRouter(
     prefix='/blog',
